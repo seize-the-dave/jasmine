@@ -24,7 +24,7 @@ public class TypeReferenceTokenFailureTest {
     }
 
     @Theory
-    public void testTypeReference(String dataPoint) {
+    public void testToken(String dataPoint) {
         assertFalse(dataPoint + " should be invalid.", Token.TYPE_REFERENCE.matches(dataPoint));
     }
 }

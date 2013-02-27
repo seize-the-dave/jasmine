@@ -26,7 +26,7 @@ public class TypeReferenceTokenTest {
     }
 
     @Theory
-    public void testTypeReference(String dataPoint) {
+    public void testToken(String dataPoint) {
         assertTrue(dataPoint + " should be valid.", Token.TYPE_REFERENCE.matches(dataPoint));
     }
 }
