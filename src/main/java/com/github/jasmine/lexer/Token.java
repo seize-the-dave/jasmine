@@ -10,7 +10,15 @@ public enum Token {
      * character shall be an upper-case letter. A hyphen shall not be the last character. A hyphen shall not be
      * immediately followed by another hyphen.
      */
-    TYPE_REFERENCE("^[A-Z](-?[a-zA-Z0-9]+)*$");
+    TYPE_REFERENCE("^[A-Z](-?[a-zA-Z0-9]+)*$"),
+    /**
+     * T-REC-X.680 200811 §12.3
+     *
+     * An "identifier" shall consist of an arbitrary number (one or more) of letters, digits, and hyphens. The initial
+     * character shall be a lower-case letter. A hyphen shall not be the last character. A hyphen shall not be
+     * immediately followed by another hyphen.
+     */
+    IDENTIFIER("^[a-z](-?[a-zA-Z0-9]+)*$");
 
     private final Pattern pattern;
 
