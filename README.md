@@ -12,4 +12,4 @@ TODO
 Useful Links
 ------------
 
- - [ITU-T Rec. X.680](http://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.680-200811-I!!PDF-E&type=items)
+ - [ITU-T Rec. X.680](http://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.680-200811-I!!PDF-E&type=items) (Specification of Basic Notation)
