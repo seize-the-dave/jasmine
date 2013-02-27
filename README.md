@@ -12,4 +12,4 @@ TODO
 Useful Links
 ------------
 
-http://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One#Standards
+ - [ITU-T Rec. X.680](http://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.680-200811-I!!PDF-E&type=items)
