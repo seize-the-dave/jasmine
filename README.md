@@ -3,11 +3,11 @@ Jasmine
 
 Jasmine is a Java ASN.1 Lexcical Analyzer & Parser
 
-Features
---------
+TODO
+----
 
-[ ] Lexical Analyzer
-[ ] Parser
+ - Lexical Analyzer
+ - Parser
 
 Useful Links
 ------------
