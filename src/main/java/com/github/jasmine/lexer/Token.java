@@ -30,7 +30,14 @@ public enum Token {
      * analyzing an instance of use of this notation, a "valuereference" is distinguished from an "identifier" by the
      * context in which it appears.
      */
-    IDENTIFIER("^[a-z](-?[a-zA-Z0-9]+)*$");
+    IDENTIFIER("^[a-z](-?[a-zA-Z0-9]+)*$"),
+    /**
+     * T-REC-X.680 200811 §12.8
+     *
+     * A "number" shall consist of one or more digits. The first digit shall not be zero unless the "number"
+     * is a single digit.
+     */
+    NUMBER("^\\d|[1-9]\\d*$");
 
     private final Pattern pattern;
 
