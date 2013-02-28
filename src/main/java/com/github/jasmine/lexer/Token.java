@@ -4,6 +4,32 @@ import java.util.regex.Pattern;
 
 public enum Token {
     /**
+     * T-REC-X.680 200811 §12.1.6
+     *
+     * This Recommendation | International Standard uses the terms "newline", and "white-space". In representing
+     * white-space and newline (end of line) in machine-readable specifications, any one or more of the following
+     * characters may be used in any combination (for each character, the character name and character code specified
+     * in The Unicode Standard are given):
+     *
+     * For white-space:
+     *
+     *  HORIZONTAL TABULATION (9)
+     *  LINE FEED (10)
+     *  VERTICAL TABULATION (11)
+     *  FORM FEED (12)
+     *  CARRIAGE RETURN (13)
+     *  SPACE (32)
+     *
+     * For newline:
+     *
+     *  LINE FEED (10)
+     *  VERTICAL TABULATION (11)
+     *  FORM FEED (12)
+     *  CARRIAGE RETURN (13)
+     */
+    WHITE_SPACE("[\t\n\u0011\f\r ]"),
+    NEWLINE("[\n\u0011\f\r]"),
+    /**
      * T-REC-X.680 200811 §12.2.1
      *
      * A "typereference" shall consist of an arbitrary number (one or more) of letters, digits, and hyphens. The initial
